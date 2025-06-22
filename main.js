@@ -1,3 +1,7 @@
+const year = new Date().getFullYear();
+
+document.getElementById("year").textContent = year;
+
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
